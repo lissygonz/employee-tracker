@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/lissygonz/employee-tracker#readme",
   "dependencies": {
+    "connect": "^3.7.0",
     "inquirer": "^9.0.0",
     "mysql2": "^2.3.3"
   }
