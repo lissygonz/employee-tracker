@@ -1,8 +1,4 @@
-const init = require("connect-session-sequelize");
-const { createPromptModule } = require("inquirer");
 const { prompt } = require("inquirer");
-const { QueryInterface } = require("sequelize/types");
-const { allEmployees, updateEmployeeRole } = require("./db");
 const db = require("./db");
 require("console.table");
 

@@ -3,7 +3,7 @@ const mysqyl = require("mysql2");
 const connection = mysqyl.createConnection({
     host: "localhost",
     //MySQL Password
-    password: "",
+    password: "Bootcamp22!",
     database: "employees"
 });
 
